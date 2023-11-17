@@ -1,0 +1,45 @@
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Ajuste para alinear la tabla al lado derecho */
+    align-items: center;
+  }
+  
+  .default {
+    width: 90%;
+    margin-top: 0%;
+    border-collapse: collapse;
+  }
+  
+  .default td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .default th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .default tr {
+    transition: background-color 0.3s;
+  }
+  
+  .default tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .default tr:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .default td:hover {
+    box-shadow: inset 5px 0px 0px #007bff;
+  }
+  

@@ -1,0 +1,101 @@
+/* Estilos generales para la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  
+  background-color: #fff
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Agregado para centrar verticalmente */
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto; /* Agregado para centrar horizontalmente */
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.content {
+  text-align: center;
+ justify-content: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #fff7f7;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 6px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+  background-color: #f0f0f0;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* Estilos para el título */
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0056b3;
+}
+
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+  .default {
+    width: 90%;
+    margin-top: 0;
+  }
+
+  .form-group {
+    max-width: 100%;
+    padding: 1em;
+  }
+}
+
