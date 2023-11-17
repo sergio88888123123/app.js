@@ -1,7 +1,11 @@
 // Table.js
 
 import React from 'react';
+<<<<<<< HEAD
 import './Table.css';
+=======
+
+>>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
 const Table = () => {
   return (
     <div className="table-container">

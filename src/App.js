@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -29,4 +30,22 @@ const Inicio = () => <div>Contenido de Inicio</div>;
 const AcercaDe = () => <div>Contenido de Acerca de</div>;
 const Contacto = () => <div>Contenido de Contacto</div>;
 
+=======
+// App.js
+
+import React, { useState } from 'react';
+import './App.css';
+import { Form } from './componentes/Form';
+import Table from './componentes/Table';
+
+function App() {
+  return (
+      <div>
+        <Form />
+        <Table />
+    </div>
+  );
+}
+
+>>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
 export default App;
