@@ -2,11 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-<<<<<<< HEAD
 
-=======
-import Userpage from './Userpage';
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,11 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const MainApp = () => (
   <React.StrictMode>
     <App />
-<<<<<<< HEAD
 
-=======
-    <Userpage />
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
   </React.StrictMode>
 );
 

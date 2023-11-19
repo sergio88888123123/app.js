@@ -4,6 +4,20 @@
     justify-content: center; /* Ajuste para alinear la tabla al lado derecho */
     align-items: center;
   }
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px; /* Ajusta según sea necesario */
+  }
+  
+  .search-bar input {
+    width: 90%; /* Ajusta el ancho según tus preferencias */
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
   
   .default {
     width: 90%;

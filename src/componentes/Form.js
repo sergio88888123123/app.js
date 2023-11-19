@@ -13,27 +13,7 @@ export const Form = () => {
   
   
     return (
-<<<<<<< HEAD
         
-=======
-        <div className="container">
-        <button className={`toggle-button ${isSidebarOpen ? 'open' : ''}`} onClick={toggleSidebar}>
-          ☰
-        </button>
-        <div className={`sidebar ${isSidebarOpen ? 'sidebar-open' : ''}`}>
-          <button className="close-button" onClick={toggleSidebar}>
-            &times;
-          </button>
-          <ul className="nav-links">
-            <li><a href="https://open.spotify.com/intl-es/track/1L0C3xvOtzHSOSZ5T59n0L?si=55a42004a214479d">Inicio</a></li>
-            <li><a href="Appindex">Existencias</a></li>
-            <li><a href="#">Catálogo</a></li>
-            <li><a href="#">Clientes</a></li>
-
-          </ul>
-  
-        </div>
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
         <div className="content">
          
             <div className="form-group">
@@ -60,10 +40,6 @@ export const Form = () => {
             
          
         </div>
-<<<<<<< HEAD
    
-=======
-      </div>
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
   );
 };

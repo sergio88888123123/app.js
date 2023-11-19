@@ -42,12 +42,12 @@
 }
 
 .navbar {
-
+background-color: #2a97bf ;
 }
 .close-button {
   background: none;
-  border: none;
-  color: white;
+  border: black;
+  color: black;
   font-size: 1.5em;
   cursor: pointer;
   position: absolute;

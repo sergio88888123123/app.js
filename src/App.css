@@ -5,89 +5,13 @@ body {
   margin: 0;
   padding: 0;
 }
-<<<<<<< HEAD
 .App {
   
   background-color: #fff
-=======
-
-/* Estilos para la barra de navegación */
-.navbar,
-.nav-links ul {
-  background-color: #007bff;
-  color: #fff;
-  padding: 0;
-  margin: 0;
-  border-radius: 25px;
-}
-
-.navbar li a,
-.nav-links li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 15px 20px;
-}
-
-.navbar li a:hover,
-.nav-links li a:hover {
-  background-color: #0056b3;
-}
-
-.nav-links li {
-  margin-right: 15px;
-}
-
-/* Estilos para la barra lateral (sidebar) */
-.sidebar {
-  width: 0;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #0ca6de;
-  transition: width 0.3s;
-  overflow-x: hidden;
-  padding-top: 0px;
-  border-radius: 0 9px 9px 0;
-}
-
-.sidebar-open {
-  width: 250px;
-}
-
-.sidebar a {
-  padding: 15px 25px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #fff;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  background-color: #0056b3;
-}
-
-/* Estilos para el contenido principal */
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgb(255, 247, 247);
-  padding: 20px;
-  text-align: center;
-  transition: margin-left 0.3s;
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
 }
 
 .form-group {
   display: flex;
-<<<<<<< HEAD
   justify-content: center;
   align-items: center; /* Agregado para centrar verticalmente */
   flex-direction: column;
@@ -95,12 +19,6 @@ body {
   width: 100%;
   max-width: 50%;
   margin: 0 auto; /* Agregado para centrar horizontalmente */
-=======
-  flex-direction: column;
-  gap: 15px;
-  width: 100%;
-  max-width: 37.7%;
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
   padding: 30px;
   border-radius: 10px;
   background-color: #1a1a1a;
@@ -110,11 +28,7 @@ body {
 
 .content {
   text-align: center;
-<<<<<<< HEAD
  justify-content: center;
-=======
-  flex-grow: 1;
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
 }
 
 label {
@@ -160,39 +74,9 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-<<<<<<< HEAD
 
 
 
-=======
-/* Estilos para el panel derecho */
-.right-panel {
-  flex-basis: 50%;
-  padding: 20px;
-  background-color: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgb(255, 255, 255);
-}
-
-/* Estilos para la tabla */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #ccc;
-}
-
-.th, .td {
-  padding: 12px;
-  text-align: left;
-}
-
-/* Estilos para la tabla de encabezado */
-.th {
-  background-color: #007bff;
-  color: #fff;
-}
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
 
 /* Estilos para el título */
 h1 {
@@ -201,52 +85,6 @@ h1 {
   color: #0056b3;
 }
 
-<<<<<<< HEAD
-=======
-.table-container {
-  display: flex;
-  justify-content: flex-end; /* Ajuste para alinear la tabla al lado derecho */
-  align-items: center;
-}
-
-.default {
-  width: 50%;
-  margin-top: -80%;
-  border-collapse: collapse;
-}
-
-.default td {
-  border: 1px solid #ddd;
-  padding: 12px;
-  text-align: left;
-  max-width: 150px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.default th {
-  background-color: #f4f4f4;
-  color: #333;
-  font-weight: bold;
-}
-
-.default tr {
-  transition: background-color 0.3s;
-}
-
-.default tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-.default tr:hover {
-  background-color: #e5e5e5;
-}
-
-.default td:hover {
-  box-shadow: inset 5px 0px 0px #007bff;
-}
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
 
 /* Estilos responsivos */
 @media screen and (max-width: 600px) {
@@ -259,44 +97,5 @@ h1 {
     max-width: 100%;
     padding: 1em;
   }
-<<<<<<< HEAD
-=======
-
-  .table-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .default td {
-    border: 1px solid #ddd;
-    padding: 0.8em;
-    font-size: 0.9em;
-    text-align: left;
-    transition: background-color 0.3s;
-  }
-  
-  .default th {
-    background-color: #f4f4f4;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .default tr {
-    transition: background-color 0.3s;
-  }
-  
-  .default tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .default tr:hover {
-    background-color: #e5e5e5;
-  }
-  
-  .default td:hover {
-    box-shadow: inset 5px 0px 0px #007bff;
-  }
->>>>>>> 97714c5b1073ec4e814a8e77adb3ed53a1f17569
 }
 

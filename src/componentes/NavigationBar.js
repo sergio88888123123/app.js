@@ -1,9 +1,10 @@
 // NavigationBar.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import SearchBar from './SearchBar'; // Ajusta la ruta según la estructura de tu proyecto
 import './NavigationBar.css';
-
-const NavigationBar = () => {
+import './SearchBar.css';
+const NavigationBar = ({ onSearch }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -34,7 +35,9 @@ const NavigationBar = () => {
         <div className="navbar-toggle" onClick={toggleSidebar}>
           ☰
         </div>
+       
       </nav>
+      <SearchBar onSearch={onSearch} />
     </div>
   );
 };
