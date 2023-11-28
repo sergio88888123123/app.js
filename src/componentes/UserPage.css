@@ -1,0 +1,41 @@
+.app-container, h1 {
+  margin-top: 60px;
+  color: black;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 30px;
+  padding: 20px;
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 23px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease; /* Agregamos la transición a background-color */
+}
+
+.red {
+  background-color: rgb(161, 82, 82);
+}
+
+.blue {
+  background-color: rgb(42, 42, 183);
+}
+
+.green {
+  background-color: rgb(97, 172, 97);
+}
+
+.yellow {
+  background-color: rgb(185, 185, 88);
+}
+
+/* Agregamos la regla :hover para cambiar el color de fondo al pasar el ratón */
+.box:hover {
+  background-color: #333; /* Cambia el color a tu preferencia */
+}

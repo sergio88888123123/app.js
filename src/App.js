@@ -5,7 +5,7 @@ import NavigationBar from './componentes/NavigationBar';
 import { Form } from './componentes/Form';
 import UserPage from './componentes/UserPage'; // Asegúrate de que la importación coincide con el nombre del archivo
 import './App.css'
-import Table  from './componentes/Table';
+import Table2 from './componentes/Table2';
 
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
       <div>
         <NavigationBar />
         <Routes>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/Table" element={<Table/>} />
+        <Route path="/user" element={<UserPage />} />
+          <Route path="/Table" element={<Table2/>} />
           <Route path="/Form" element={<Form />} />
-          <Route path="/user" element={<UserPage />} />
+       
         </Routes>
       </div>
     </Router>

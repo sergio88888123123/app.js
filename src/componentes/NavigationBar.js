@@ -31,10 +31,10 @@ const NavigationBar = ({ onSearch }) => {
           &times;
         </button>
         <ul className="sidebar-links">
-          <li><Link to="/" onClick={closeSidebar}>Inicio</Link></li>
+        <li><Link to="/user" onClick={closeSidebar}>Página del Usuario</Link></li>
           <li><Link to="/Table" onClick={closeSidebar}>Table</Link></li>
           <li><Link to="/Form" onClick={closeSidebar}>Formulario</Link></li>
-          <li><Link to="/user" onClick={closeSidebar}>Página del Usuario</Link></li>
+         
         </ul>
       </div>
 
