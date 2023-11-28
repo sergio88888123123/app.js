@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import './UserPage.css';
 import Table from './Table';
@@ -33,5 +34,17 @@ const UserPage = () => {
     </div>
   );
 };
+=======
+
+
+import React from 'react';
+
+const UserPage = () => (
+  <div>
+    <h2>Página del Usuario</h2>
+    {/* Contenido de la página del usuario */}
+  </div>
+);
+>>>>>>> f5f39852b75ceeb98bf59c14a4292fe9b910c806
 
 export default UserPage;
